@@ -7,3 +7,4 @@ frontend/node_modules/
 frontend/.next/
 *.pem
 check_models.py
+frontend/.env.local
