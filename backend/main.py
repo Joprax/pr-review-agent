@@ -91,6 +91,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:3000",
+        "https://pr-review-agent-dashboard.vercel.app",
         "https://pr-review-agent-dashboard-93t9k8p8l-joprax-s-projects.vercel.app"
     ],
     allow_methods=["*"],
