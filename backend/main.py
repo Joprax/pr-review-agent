@@ -89,7 +89,7 @@ def format_review_comment(review: str, pr_title: str) -> str:
 # Allow Next.js (port 3000) to call this API
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],
+    allow_origins=["*"],
     allow_methods=["*"],
     allow_headers=["*"]
 )
